@@ -17,6 +17,7 @@
 		9B1CC6FC28B0951E00F4EF09 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CC6E628B0951A00F4EF09 /* Persistence.swift */; };
 		9B1CC6FD28B0951E00F4EF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC6E728B0951D00F4EF09 /* Assets.xcassets */; };
 		9B1CC6FE28B0951E00F4EF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC6E728B0951D00F4EF09 /* Assets.xcassets */; };
+		9B1CC70928B095ED00F4EF09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CC70828B095ED00F4EF09 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9B1CC6EC28B0951D00F4EF09 /* MyBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1CC6F228B0951E00F4EF09 /* MyBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1CC6F428B0951E00F4EF09 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9B1CC70828B095ED00F4EF09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		9B1CC6E128B0951A00F4EF09 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9B1CC70728B095C100F4EF09 /* Main */,
 				9B1CC6E428B0951A00F4EF09 /* MyBillsApp.swift */,
 				9B1CC6E528B0951A00F4EF09 /* ContentView.swift */,
 				9B1CC6E628B0951A00F4EF09 /* Persistence.swift */,
@@ -84,6 +87,14 @@
 				9B1CC6F428B0951E00F4EF09 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9B1CC70728B095C100F4EF09 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CC70828B095ED00F4EF09 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				9B1CC6F728B0951E00F4EF09 /* MyBillsApp.swift in Sources */,
 				9B1CC6FB28B0951E00F4EF09 /* Persistence.swift in Sources */,
 				9B1CC6F528B0951E00F4EF09 /* MyBills.xcdatamodeld in Sources */,
+				9B1CC70928B095ED00F4EF09 /* MainView.swift in Sources */,
 				9B1CC6F928B0951E00F4EF09 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

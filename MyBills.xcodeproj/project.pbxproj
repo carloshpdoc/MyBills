@@ -18,6 +18,7 @@
 		9B1CC6FD28B0951E00F4EF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC6E728B0951D00F4EF09 /* Assets.xcassets */; };
 		9B1CC6FE28B0951E00F4EF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC6E728B0951D00F4EF09 /* Assets.xcassets */; };
 		9B1CC70928B095ED00F4EF09 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CC70828B095ED00F4EF09 /* MainView.swift */; };
+		9B1CC70C28B170CB00F4EF09 /* AddCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CC70B28B170CB00F4EF09 /* AddCardForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9B1CC6F228B0951E00F4EF09 /* MyBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1CC6F428B0951E00F4EF09 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9B1CC70828B095ED00F4EF09 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9B1CC70B28B170CB00F4EF09 /* AddCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +94,18 @@
 		9B1CC70728B095C100F4EF09 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9B1CC70A28B170AA00F4EF09 /* AddCard */,
 				9B1CC70828B095ED00F4EF09 /* MainView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		9B1CC70A28B170AA00F4EF09 /* AddCard */ = {
+			isa = PBXGroup;
+			children = (
+				9B1CC70B28B170CB00F4EF09 /* AddCardForm.swift */,
+			);
+			path = AddCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1CC6F728B0951E00F4EF09 /* MyBillsApp.swift in Sources */,
+				9B1CC70C28B170CB00F4EF09 /* AddCardForm.swift in Sources */,
 				9B1CC6FB28B0951E00F4EF09 /* Persistence.swift in Sources */,
 				9B1CC6F528B0951E00F4EF09 /* MyBills.xcdatamodeld in Sources */,
 				9B1CC70928B095ED00F4EF09 /* MainView.swift in Sources */,
